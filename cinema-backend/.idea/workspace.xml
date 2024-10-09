@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e3234a1-bb34-40ad-b2ff-43be0b1bc194" name="Changes" comment="- add roles &#10;- add sign in / sign up with token">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/controller/CinemaRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/ProjectionProj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/ticketProjection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/CinemaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/CinemaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/CategorieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/CategorieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/CinemaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/FilmRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/FilmRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/PlaceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/PlaceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/ProjectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/ProjectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/SalleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/SalleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/SeanceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/SeanceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/TicketRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/dao/VilleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/repository/VilleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Categorie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Categorie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Place.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Projection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Projection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Salle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Salle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Seance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Seance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/entities/Ville.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/entity/Ville.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/service/CinemaInitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/service/CinemaInitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cinema/service/IcinemaInitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/cinema/service/IcinemaInitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/application.properties" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2NTAtGGneENskL8jRcPYpJy3Jr7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.CinemaApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "a57c3790",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/omar/Bureau/github project/Cinema-Booking-/cinema-front-web",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "spring.configuration.checksum": "4870f9d3a6299578edcc3e6c954baeba",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.cinema" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.cinema.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CinemaApplication">
+    <configuration name="cinema-endpoints | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/cinema-endpoints.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #8" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="8" requestIdentifier="#8" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #9" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="9" requestIdentifier="#9" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="CinemaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cinema" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cinema.CinemaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #8" />
+        <item itemvalue="HTTP Request.cinema-endpoints | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #9" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e3234a1-bb34-40ad-b2ff-43be0b1bc194" name="Changes" comment="" />
+      <created>1679677912753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679677912753</updated>
+      <workItem from="1679677913777" duration="1263000" />
+      <workItem from="1679762138709" duration="1106000" />
+      <workItem from="1679790868119" duration="9051000" />
+      <workItem from="1680007549076" duration="10817000" />
+      <workItem from="1680278792682" duration="2204000" />
+      <workItem from="1680281010731" duration="2728000" />
+      <workItem from="1680397029266" duration="8000" />
+      <workItem from="1680574762838" duration="910000" />
+      <workItem from="1680576085984" duration="1830000" />
+      <workItem from="1680586597076" duration="335000" />
+      <workItem from="1680828203723" duration="3618000" />
+      <workItem from="1680911578329" duration="9523000" />
+      <workItem from="1680928040892" duration="4726000" />
+      <workItem from="1681100017606" duration="4539000" />
+      <workItem from="1681189535426" duration="8447000" />
+      <workItem from="1681200306927" duration="1534000" />
+      <workItem from="1681614047043" duration="1777000" />
+      <workItem from="1682411378477" duration="674000" />
+      <workItem from="1685115531962" duration="661000" />
+      <workItem from="1685118748764" duration="595000" />
+      <workItem from="1685120401404" duration="985000" />
+      <workItem from="1685184089528" duration="3147000" />
+      <workItem from="1685191635445" duration="597000" />
+      <workItem from="1685207206244" duration="705000" />
+      <workItem from="1685271522647" duration="7170000" />
+      <workItem from="1685284867441" duration="7831000" />
+      <workItem from="1685303975434" duration="28000" />
+      <workItem from="1685304420650" duration="626000" />
+      <workItem from="1687363451968" duration="282000" />
+      <workItem from="1687370272588" duration="234000" />
+      <workItem from="1687371403158" duration="37000" />
+      <workItem from="1688720649320" duration="727000" />
+      <workItem from="1688723072311" duration="22000" />
+      <workItem from="1688744032231" duration="993000" />
+      <workItem from="1696074082612" duration="813000" />
+      <workItem from="1728402489432" duration="951000" />
+      <workItem from="1728424248292" duration="3351000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create the entities&#10;Create the repository interfaces and connect to the database using Data JPA&#10;Create REST APIs">
+      <created>1680279339259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680279339259</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-test">
+      <created>1680282798816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680282798816</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- add crossOrigin">
+      <created>1680586693050</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680586693050</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- add roles &#10;- add sign in / sign up with token">
+      <created>1685279117268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685279117268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create the entities&#10;Create the repository interfaces and connect to the database using Data JPA&#10;Create REST APIs" />
+    <MESSAGE value="-test" />
+    <MESSAGE value="- add crossOrigin" />
+    <MESSAGE value="- add roles &#10;- add sign in / sign up with token" />
+    <option name="LAST_COMMIT_MESSAGE" value="- add roles &#10;- add sign in / sign up with token" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
